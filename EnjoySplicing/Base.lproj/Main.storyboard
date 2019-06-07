@@ -25,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6h-bi-69a">
-                                                <rect key="frame" x="155.5" y="40" width="64" height="30"/>
+                                                <rect key="frame" x="155.5" y="20" width="64" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntJ-fA-QoT">
                                                         <rect key="frame" x="25" y="6.5" width="39" height="17"/>
@@ -52,7 +52,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IxJ-bc-Vet">
-                                                <rect key="frame" x="19" y="110" width="337.5" height="337.5"/>
+                                                <rect key="frame" x="19" y="80" width="337.5" height="337.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="IxJ-bc-Vet" secondAttribute="height" multiplier="1:1" id="BTv-uT-q4z"/>
@@ -96,7 +96,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHI-Xn-tTa">
-                                                <rect key="frame" x="272.5" y="735" width="92.5" height="16"/>
+                                                <rect key="frame" x="272.5" y="735" width="92.5" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="92.5" id="i3P-Bo-KWG"/>
                                                 </constraints>
@@ -112,10 +112,10 @@
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p7O-OG-40F">
-                                                <rect key="frame" x="127.5" y="437" width="120" height="120"/>
+                                                <rect key="frame" x="137.5" y="477" width="100" height="100"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="FxQ-jh-7Cc"/>
-                                                    <constraint firstAttribute="height" constant="120" id="Sw6-vp-cyg"/>
+                                                    <constraint firstAttribute="width" constant="100" id="FxQ-jh-7Cc"/>
+                                                    <constraint firstAttribute="height" constant="100" id="Sw6-vp-cyg"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
@@ -127,18 +127,18 @@
                                             <constraint firstItem="OO9-0C-H5L" firstAttribute="leading" secondItem="CEg-Ma-Os8" secondAttribute="trailing" constant="10" id="A4u-1e-WGM"/>
                                             <constraint firstItem="hA5-ug-8du" firstAttribute="leading" secondItem="OO9-0C-H5L" secondAttribute="trailing" constant="10" id="CtW-pa-lLu"/>
                                             <constraint firstItem="IxJ-bc-Vet" firstAttribute="centerX" secondItem="J7h-k1-7Wf" secondAttribute="centerX" id="DsO-ps-dzd"/>
-                                            <constraint firstItem="IxJ-bc-Vet" firstAttribute="top" secondItem="C6h-bi-69a" secondAttribute="bottom" constant="40" id="LqG-cU-kO1"/>
+                                            <constraint firstItem="IxJ-bc-Vet" firstAttribute="top" secondItem="C6h-bi-69a" secondAttribute="bottom" constant="30" id="LqG-cU-kO1"/>
                                             <constraint firstItem="hA5-ug-8du" firstAttribute="width" secondItem="CEg-Ma-Os8" secondAttribute="width" id="UaB-md-D5l"/>
                                             <constraint firstItem="p7O-OG-40F" firstAttribute="centerX" secondItem="J7h-k1-7Wf" secondAttribute="centerX" id="WuO-ee-mdU"/>
                                             <constraint firstItem="IxJ-bc-Vet" firstAttribute="width" secondItem="J7h-k1-7Wf" secondAttribute="width" multiplier="0.9" id="ZCA-WC-Mse"/>
                                             <constraint firstItem="hA5-ug-8du" firstAttribute="trailing" secondItem="IxJ-bc-Vet" secondAttribute="trailing" id="dyG-Ci-eAS"/>
                                             <constraint firstAttribute="trailing" secondItem="gHI-Xn-tTa" secondAttribute="trailing" constant="10" id="eCS-4k-J5b"/>
                                             <constraint firstItem="hA5-ug-8du" firstAttribute="width" secondItem="CEg-Ma-Os8" secondAttribute="width" id="flq-WU-ZqF"/>
-                                            <constraint firstItem="OO9-0C-H5L" firstAttribute="top" secondItem="p7O-OG-40F" secondAttribute="bottom" constant="50" id="gGK-bn-7YI"/>
+                                            <constraint firstItem="OO9-0C-H5L" firstAttribute="top" secondItem="p7O-OG-40F" secondAttribute="bottom" constant="30" id="gGK-bn-7YI"/>
                                             <constraint firstItem="hA5-ug-8du" firstAttribute="top" secondItem="CEg-Ma-Os8" secondAttribute="top" id="gy4-3a-cJ9"/>
                                             <constraint firstAttribute="height" constant="647" id="hON-gM-VfO"/>
                                             <constraint firstItem="C6h-bi-69a" firstAttribute="centerX" secondItem="J7h-k1-7Wf" secondAttribute="centerX" id="nme-AC-T5c"/>
-                                            <constraint firstItem="C6h-bi-69a" firstAttribute="top" secondItem="J7h-k1-7Wf" secondAttribute="top" constant="40" id="o65-5V-elY"/>
+                                            <constraint firstItem="C6h-bi-69a" firstAttribute="top" secondItem="J7h-k1-7Wf" secondAttribute="top" constant="20" id="o65-5V-elY"/>
                                             <constraint firstItem="OO9-0C-H5L" firstAttribute="centerX" secondItem="J7h-k1-7Wf" secondAttribute="centerX" id="onX-N9-rnh"/>
                                             <constraint firstItem="gHI-Xn-tTa" firstAttribute="top" secondItem="J7h-k1-7Wf" secondAttribute="top" constant="735" id="pbl-fK-IdB"/>
                                             <constraint firstItem="OO9-0C-H5L" firstAttribute="centerY" secondItem="hA5-ug-8du" secondAttribute="centerY" id="v9c-5a-C7u"/>
@@ -259,8 +259,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bgImage" width="16" height="16"/>
-        <image name="img_download" width="16" height="16"/>
-        <image name="time" width="16" height="16"/>
+        <image name="bgImage" width="800" height="542"/>
+        <image name="img_download" width="15" height="15"/>
+        <image name="time" width="32" height="32"/>
     </resources>
 </document>

@@ -13,7 +13,17 @@
 
 + (void)commnetMethodStringMesd {
     
+    NSString *string = [NSString string];
+    string = @"sadfasdassdfasdfasdfa";
     
+    NSString *string2 = string;
+    
+    NSArray *array = [NSMutableArray array];
+    NSArray *array2 = array;
+    
+    
+    NSDictionary *dic = [NSDictionary dictionary];
+    NSDictionary *dic2 = dic;
 }
 
 @end

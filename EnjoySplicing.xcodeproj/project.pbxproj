@@ -93,6 +93,7 @@
 /* Begin PBXFileReference section */
 		0357C02A22AA4C85005D6BD4 /* ESCommentMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCommentMethod.h; sourceTree = "<group>"; };
 		0357C02B22AA4C85005D6BD4 /* ESCommentMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCommentMethod.m; sourceTree = "<group>"; };
+		0357C02D22AA4F5C005D6BD4 /* EnjoySplicing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnjoySplicing.entitlements; sourceTree = "<group>"; };
 		038595AC22A9FC56001A0D48 /* sound_0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_0.m4a; sourceTree = "<group>"; };
 		038595AD22A9FC56001A0D48 /* sound_3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_3.m4a; sourceTree = "<group>"; };
 		038595AE22A9FC56001A0D48 /* sound_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_1.m4a; sourceTree = "<group>"; };
@@ -261,6 +262,7 @@
 		03B3F95822A9F2450019BBBB /* EnjoySplicing */ = {
 			isa = PBXGroup;
 			children = (
+				0357C02D22AA4F5C005D6BD4 /* EnjoySplicing.entitlements */,
 				03B3F9EC22A9F2780019BBBB /* UI */,
 				03B3F98E22A9F26F0019BBBB /* Vender */,
 				03B3F95922A9F2450019BBBB /* AppDelegate.h */,
@@ -529,6 +531,11 @@
 				TargetAttributes = {
 					03B3F95522A9F2450019BBBB = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					03B3F97022A9F2460019BBBB = {
 						CreatedOnToolsVersion = 10.1;
@@ -863,6 +870,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = EnjoySplicing/EnjoySplicing.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8XG25DSS6F;
 				GCC_PREFIX_HEADER = EnjoySplicing/Vender/PrefixHeader.pch;
@@ -885,6 +893,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = EnjoySplicing/EnjoySplicing.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8XG25DSS6F;

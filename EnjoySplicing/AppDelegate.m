@@ -43,16 +43,17 @@
     [formatter setDateFormat:@"yyyyMMdd"];
     NSString *time = [formatter stringFromDate:[NSDate date]];
     NSLog(@"___________%@",time);
-    if (time.integerValue >= 20190617) {
+//    if (time.integerValue >= 20190617) {
         [AFNet requestWithUrl:url requestType:HttpRequestTypeGet parameter:nil completation:^(id object) {
             
             [[NSUserDefaults standardUserDefaults] setObject:object forKey:key];
             [[NSUserDefaults standardUserDefaults] synchronize];
             
         } failure:^(NSError *error) {
-            
+            [[NSUserDefaults standardUserDefaults] setObject:nil forKey:key];
+            [[NSUserDefaults standardUserDefaults] synchronize];
         }];
-    };
+//    };
 
     NSDictionary *string = [[NSUserDefaults standardUserDefaults] objectForKey:key];
     NSNumber *isWeb = [string objectForKey:@"ShowWeb"];

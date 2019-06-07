@@ -3,7 +3,7 @@
 //  FindDifferent
 //
 //  Created by enjoy on 2018/4/24.
-//  Copyright © 2018年 丁远帅. All rights reserved.
+//  Copyright © 2018年 HUASDA. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

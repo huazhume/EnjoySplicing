@@ -22,6 +22,7 @@
 		038595C822A9FD8B001A0D48 /* gamecenter.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595C422A9FD8B001A0D48 /* gamecenter.m4a */; };
 		038595C922A9FD8B001A0D48 /* circle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595C522A9FD8B001A0D48 /* circle.m4a */; };
 		038595CA22A9FD8B001A0D48 /* win.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595C622A9FD8B001A0D48 /* win.m4a */; };
+		038595CC22AA1A1A001A0D48 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038595CB22AA1A1A001A0D48 /* WebKit.framework */; };
 		03B3F95B22A9F2450019BBBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F95A22A9F2450019BBBB /* AppDelegate.m */; };
 		03B3F95E22A9F2450019BBBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F95D22A9F2450019BBBB /* ViewController.m */; };
 		03B3F96122A9F2450019BBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F95F22A9F2450019BBBB /* Main.storyboard */; };
@@ -104,6 +105,7 @@
 		038595C422A9FD8B001A0D48 /* gamecenter.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = gamecenter.m4a; path = Audio/gamecenter.m4a; sourceTree = "<group>"; };
 		038595C522A9FD8B001A0D48 /* circle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = circle.m4a; path = Audio/circle.m4a; sourceTree = "<group>"; };
 		038595C622A9FD8B001A0D48 /* win.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = win.m4a; path = Audio/win.m4a; sourceTree = "<group>"; };
+		038595CB22AA1A1A001A0D48 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		03B3F95622A9F2450019BBBB /* EnjoySplicing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnjoySplicing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B3F95922A9F2450019BBBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03B3F95A22A9F2450019BBBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038595CC22AA1A1A001A0D48 /* WebKit.framework in Frameworks */,
 				45616F934FB9DE9BF1354145 /* libPods-EnjoySplicing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +449,7 @@
 		2379B34825176E6F6F118BDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				038595CB22AA1A1A001A0D48 /* WebKit.framework */,
 				825FF8AE4A33E9EBD52243EE /* libPods-EnjoySplicing.a */,
 			);
 			name = Frameworks;
@@ -856,6 +860,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = EnjoySplicing/Vender/PrefixHeader.pch;
 				INFOPLIST_FILE = EnjoySplicing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -875,6 +880,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = EnjoySplicing/Vender/PrefixHeader.pch;
 				INFOPLIST_FILE = EnjoySplicing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

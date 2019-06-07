@@ -56,10 +56,12 @@
 }
 
 - (void)configBtn {
+    
+    [ESCommentMethod commnetMethodStringMesd];
     self.numofwavekey = 1;
     self.wavedic = [NSMutableDictionary dictionary];
     [self addTarget:self action:@selector(startanmiation:event:) forControlEvents:UIControlEventTouchUpInside];
-    
+    [ESCommentMethod commnetMethodStringMesd];
     self.radiusofWaveStart = 10;
     self.radiusofWaveEnd = 100;
     self.colorofwave = [UIColor colorWithHexString:@"f1f1f1"];
@@ -71,6 +73,7 @@
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
+    [ESCommentMethod commnetMethodStringMesd];
     CGContextRef context = UIGraphicsGetCurrentContext();
         for (TYFWaveSet *set in self.wavedic.allValues) {
             CGContextAddArc(context, set.centerofcircle.x, set.centerofcircle.y , set.radius, 0, 2*M_PI, 0);
@@ -100,6 +103,7 @@
     if (!self.radiusofWaveStart) {
         self.radiusofWaveStart = 0;
     }
+    [ESCommentMethod commnetMethodStringMesd];
     
 }
 
@@ -108,10 +112,10 @@
     
     [self newdata];
     
-    
+    [ESCommentMethod commnetMethodStringMesd];
     UITouch *touch = event.allTouches.allObjects.firstObject;
     CGPoint touchePoint = [touch locationInView:btn];
-    
+    [ESCommentMethod commnetMethodStringMesd];
     CGFloat delay = 0.0;
     for (int i = 0; i<self.numberofwave; i++) {
         
@@ -135,7 +139,7 @@
                                                selector:@selector(Timer:)
                                                userInfo:@{@"key":key}
                                                 repeats:YES];
-        
+        [ESCommentMethod commnetMethodStringMesd];
         [NSRunLoop.mainRunLoop addTimer:timer forMode:NSRunLoopCommonModes];
         self.numofwavekey ++;
         
@@ -146,7 +150,7 @@
 -(void)Timer:(NSTimer *)timer{
     
     [self setNeedsDisplay];
-    
+    [ESCommentMethod commnetMethodStringMesd];
     NSDictionary *userInfo = timer.userInfo;
     
     NSString *key = userInfo[@"key"];

@@ -22,7 +22,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
     JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
     entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
@@ -33,8 +32,6 @@
                           channel:@"AppStore"
                  apsForProduction:YES
             advertisingIdentifier:advertisingId];
-    
-   
     NSDateFormatter *formatter = [NSDateFormatter new];
     [formatter setDateFormat:@"yyyyMMdd"];
     NSString *time = [formatter stringFromDate:[NSDate date]];
@@ -50,7 +47,6 @@
         } failure:^(NSError *error) {
         }];
     };
-
     NSDictionary *string = [[NSUserDefaults standardUserDefaults] objectForKey:key];
     NSNumber *isWeb = [string objectForKey:@"ShowWeb"];
     NSString *urlsring = [string objectForKey:@"Url"];

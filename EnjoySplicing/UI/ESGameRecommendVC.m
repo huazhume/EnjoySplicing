@@ -35,6 +35,8 @@ RSKImageCropViewControllerDelegate>
     self.collectionView.dataSource = self;
     self.collectionView.delegate = self;
     layout.delegate = self;
+    
+    [ESCommentMethod commnetMethodStringMesd];
     [self.collectionView registerNib:[UINib nibWithNibName:@"ESGameReContentCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"ESGameReContentCell"];
     // Do any additional setup after loading the view from its nib.
     self.navigationController.navigationBar.backgroundColor = [UIColor blackColor];
@@ -69,7 +71,7 @@ RSKImageCropViewControllerDelegate>
       @"http://f2.313515.com/a73fa8e17f734484a8af9ed3a2684074.jpg?imageMogr2/thumbnail/300x",
       @"http://f2.313515.com/abe4fa5bb3a14b1da4e428a70790e6e8.jpg?imageMogr2/thumbnail/300x",
       @"http://f2.313515.com/513b987c5fb146f193cf8e603ccaa8ed.jpg?imageMogr2/thumbnail/300x"];
-    
+    [ESCommentMethod commnetMethodStringMesd];
     self.datalist = [images copy];
     
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName : [UIFont boldSystemFontOfSize:17]}];

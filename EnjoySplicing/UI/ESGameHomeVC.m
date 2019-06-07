@@ -64,17 +64,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [ESCommentMethod commnetMethodStringMesd];
     [self configData];
 }
 
 - (void)configData
 {
+    
+    [ESCommentMethod commnetMethodStringMesd];
     self.previewImage.layer.masksToBounds = YES;
     //    self.iconImage = [UIImage imageNamed:@"source"];
     //    self.originImage = [UIImage imageNamed:@"source"];
     _downloadBtn.hidden = YES;
     self.matrixOrder = 3;
     self.algorithm = 3;
+    [ESCommentMethod commnetMethodStringMesd];
     _previewImage.image = _iconImage;
     NSString *path_document = NSHomeDirectory();
     //设置一个图片的存储路径
@@ -86,10 +90,10 @@
     
     _autoBtn.layer.cornerRadius = 20;
     _autoBtn.clipsToBounds = YES;
-    
+    [ESCommentMethod commnetMethodStringMesd];
     _quitButton.layer.cornerRadius = 20;
     _quitButton.layer.masksToBounds = YES;
-    
+    [ESCommentMethod commnetMethodStringMesd];
     if (!isAudio) {
         [self initPlayer];
     }
@@ -100,14 +104,17 @@
         _viewHeightConstraint.constant = kScreenHeight - kSafeAreaBottom - kStatusHeight;
         _scrollView.contentSize = CGSizeMake(0, _viewHeightConstraint.constant);
     }
+    [ESCommentMethod commnetMethodStringMesd];
     _scrollView.bounces = NO;
 }
 
 - (IBAction)closeClicked:(id)sender {
+    [ESCommentMethod commnetMethodStringMesd];
     [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (IBAction)downloadClicked:(UIButton *)sender {
+    [ESCommentMethod commnetMethodStringMesd];
     //你赢了 ？
     ESGameWinVC *vc = [ESGameWinVC new];
     vc.cImage = self.originImage;
@@ -116,6 +123,7 @@
 
 
 - (void)initPlayer {
+    [ESCommentMethod commnetMethodStringMesd];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"gamecenter" ofType:@"m4a"];
     NSURL *url = [NSURL fileURLWithPath:path];
     _backgroundPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
@@ -126,6 +134,7 @@
 }
 
 - (void)beginGame {
+    [ESCommentMethod commnetMethodStringMesd];
     if (_autotimer) {
         if ([_autotimer isValid]) {
             [_autotimer invalidate];
@@ -137,10 +146,12 @@
 }
 
 - (void)updateTimer {
+    [ESCommentMethod commnetMethodStringMesd];
     self.mytimeCount += 1;
 }
 
 - (void)setMytimeCount:(NSInteger)timeCount {
+    [ESCommentMethod commnetMethodStringMesd];
     _mytimeCount = timeCount;
     if (timeCount > 99*60) {
         [self onResetButton:nil];
@@ -156,6 +167,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [ESCommentMethod commnetMethodStringMesd];
     [self enterAnimation];
     
     if (_backgroundPlayer) {
@@ -165,6 +177,7 @@
 
 - (void)enterAnimation {
     self.view.alpha = 0;
+    [ESCommentMethod commnetMethodStringMesd];
     self.view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.84, 0.84);
     self.view.center = [UIApplication sharedApplication].keyWindow.center;
     [UIView animateWithDuration:0.36 animations:^{
@@ -175,11 +188,13 @@
 }
 
 - (void)randomPiece {
+    
+    [ESCommentMethod commnetMethodStringMesd];
     ESPuzzleGameStatus *status = self.gameCurrentStatus;
     NSInteger pieceIndex = arc4random() % 9;
     
     ESPuzzleGamePiece *piece = [status.pieceArray objectAtIndex:pieceIndex];
-    
+    [ESCommentMethod commnetMethodStringMesd];
     // 挖空一格
     if (status.emptyIndex < 0) {
         [UIView animateWithDuration:0.25 animations:^{
@@ -198,6 +213,8 @@
 
 /// 点击方块
 - (void)onPieceTouch:(ESPuzzleGamePiece *)piece {
+    
+    [ESCommentMethod commnetMethodStringMesd];
     if (self.isAutoing) {
         return;
     }
@@ -209,6 +226,7 @@
         _gamemoveSosoPlayer = nil;
     }
     
+    [ESCommentMethod commnetMethodStringMesd];
     ESPuzzleGameStatus *status = self.gameCurrentStatus;
     NSInteger pieceIndex = [status.pieceArray indexOfObject:piece];
     
@@ -227,6 +245,7 @@
         return;
     }
     
+    [ESCommentMethod commnetMethodStringMesd];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"movepiece" ofType:@"m4a"];
     NSInteger index = arc4random()%5;
     if (index == 0) {
@@ -238,6 +257,7 @@
     _gamemoveSosoPlayer.delegate = self;
     [_gamemoveSosoPlayer prepareToPlay];
     [_gamemoveSosoPlayer play];
+    [ESCommentMethod commnetMethodStringMesd];
     
     [status moveToIndex:pieceIndex];
     [self reloadWithStatus:self.gameCurrentStatus];
@@ -248,6 +268,7 @@
 }
 
 - (void)showgameCurrentStatusOnView:(UIView *)view {
+    [ESCommentMethod commnetMethodStringMesd];
     CGFloat size = kScreenWidth*0.9 / self.matrixOrder;
     NSInteger index = 0;
     for (NSInteger row = 0; row < self.matrixOrder; ++ row) {
@@ -260,11 +281,13 @@
 }
 
 - (void)setImage:(UIImage *)image {
+    [ESCommentMethod commnetMethodStringMesd];
     _image = image;
     [self onResetButton:nil];
 }
 
 - (void)reloadWithStatus:(ESPuzzleGameStatus *)status {
+    [ESCommentMethod commnetMethodStringMesd];
     [UIView animateWithDuration:0.25 animations:^{
         CGSize size = status.pieceArray.firstObject.frame.size;
         NSInteger index = 0;
@@ -278,11 +301,14 @@
 }
 
 - (void)setMatrixOrder:(NSInteger)matrixOrder {
+    [ESCommentMethod commnetMethodStringMesd];
     _matrixOrder = matrixOrder;
     [self onResetButton:nil];
 }
 
 - (void)gameOnShuAction:(void (^)())complete{
+    
+    [ESCommentMethod commnetMethodStringMesd];
     if (self.isAutoing) {
         return;
     }
@@ -299,6 +325,7 @@
 }
 
 - (IBAction)onResetButton:(UIButton *)sender {
+    [ESCommentMethod commnetMethodStringMesd];
     if (self.isAutoing) {
         return;
     }
@@ -338,6 +365,7 @@
 
 #pragma mark 自动
 - (IBAction)onAutoButton:(UIButton *)sender {
+    [ESCommentMethod commnetMethodStringMesd];
     if (self.isAutoing) {
         return;
     }
@@ -375,6 +403,7 @@
 }
 
 - (void)esgamesetisAutoing:(BOOL)isAutoing {
+    [ESCommentMethod commnetMethodStringMesd];
     _isAutoing = isAutoing;
     dispatch_async(dispatch_get_main_queue(), ^{
         if (isAutoing) {
@@ -386,6 +415,7 @@
 }
 
 - (void)esgameToEnd {
+    [ESCommentMethod commnetMethodStringMesd];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"win" ofType:@"m4a"];
     NSURL *url = [NSURL fileURLWithPath:path];
     _winSuccessPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
@@ -427,6 +457,7 @@
 
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
 {
+    [ESCommentMethod commnetMethodStringMesd];
     if (!error) {
         [SVProgressHUD showSuccessWithStatus:@"保存成功"];
     } else {
@@ -436,6 +467,7 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
+    [ESCommentMethod commnetMethodStringMesd];
     if (_timer) {
         [_timer invalidate];
         _timer = nil;
@@ -460,6 +492,8 @@
 
 #pragma mark --------YQInAppPurchaseToolDelegate
 - (void)esgameAutoMove {
+    
+    [ESCommentMethod commnetMethodStringMesd];
     ESGamePathSearch *searcher = nil;
     switch (self.algorithm) {
         case 1:
@@ -519,10 +553,12 @@
 }
 
 - (void)updateGameSemes {
+    [ESCommentMethod commnetMethodStringMesd];
     dispatch_semaphore_signal(_sema);
 }
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
+    [ESCommentMethod commnetMethodStringMesd];
     if (player == _goodbyePlayer) {
         [self dismissViewControllerAnimated:YES completion:nil];
     }

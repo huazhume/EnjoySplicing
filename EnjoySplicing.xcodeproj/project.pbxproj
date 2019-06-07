@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0357C02C22AA4C85005D6BD4 /* ESCommentMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0357C02B22AA4C85005D6BD4 /* ESCommentMethod.m */; };
 		038595B122A9FC56001A0D48 /* sound_0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595AC22A9FC56001A0D48 /* sound_0.m4a */; };
 		038595B222A9FC56001A0D48 /* sound_3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595AD22A9FC56001A0D48 /* sound_3.m4a */; };
 		038595B322A9FC56001A0D48 /* sound_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595AE22A9FC56001A0D48 /* sound_1.m4a */; };
@@ -90,6 +91,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0357C02A22AA4C85005D6BD4 /* ESCommentMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCommentMethod.h; sourceTree = "<group>"; };
+		0357C02B22AA4C85005D6BD4 /* ESCommentMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCommentMethod.m; sourceTree = "<group>"; };
 		038595AC22A9FC56001A0D48 /* sound_0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_0.m4a; sourceTree = "<group>"; };
 		038595AD22A9FC56001A0D48 /* sound_3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_3.m4a; sourceTree = "<group>"; };
 		038595AE22A9FC56001A0D48 /* sound_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_1.m4a; sourceTree = "<group>"; };
@@ -270,6 +273,8 @@
 				03B3F96A22A9F2460019BBBB /* Info.plist */,
 				03B3F96B22A9F2460019BBBB /* main.m */,
 				03B3F96222A9F2450019BBBB /* EnjoySplicing.xcdatamodeld */,
+				0357C02A22AA4C85005D6BD4 /* ESCommentMethod.h */,
+				0357C02B22AA4C85005D6BD4 /* ESCommentMethod.m */,
 			);
 			path = EnjoySplicing;
 			sourceTree = "<group>";
@@ -668,6 +673,7 @@
 				03B3F9D022A9F2700019BBBB /* AFNet.m in Sources */,
 				03B3FA1122A9F2780019BBBB /* ESGameWebVC.m in Sources */,
 				03B3F9E422A9F2700019BBBB /* ESPriorityGameQueue.m in Sources */,
+				0357C02C22AA4C85005D6BD4 /* ESCommentMethod.m in Sources */,
 				03B3FA1922A9F2780019BBBB /* ESGameChoosePhotoVC.m in Sources */,
 				03B3F9E522A9F2700019BBBB /* ESPuzzleGameStatus.m in Sources */,
 				03B3FA1D22A9F2780019BBBB /* ESGameRecommendCell.m in Sources */,

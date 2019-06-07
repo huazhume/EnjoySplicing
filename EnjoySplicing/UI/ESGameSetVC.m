@@ -130,7 +130,7 @@
         
     } else if (indexPath.row == 1) {
         
-        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://itunes.apple.com/cn/app/%@?mt=8",appIdString]];
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"itms-apps://itunes.apple.com/app/id%@?mt=8",appIdString]];
         UIImage *image = [UIImage imageNamed:@"app_logo"];
         NSString *str = @"Do you have nothing to do in your spare time? Enjoy Splicing will make you fall in love with life.";
         NSArray *activityItems = @[str,image,url];
@@ -140,6 +140,7 @@
         [activityViewController setCompletionWithItemsHandler:^(UIActivityType  _Nullable activityType, BOOL completed, NSArray * _Nullable returnedItems, NSError * _Nullable activityError) {
             if (completed) {
                 [SVProgressHUD showSuccessWithStatus:@"shared success"];
+                
             }
         }];
     } else {

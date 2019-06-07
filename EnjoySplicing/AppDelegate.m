@@ -50,8 +50,8 @@
             [[NSUserDefaults standardUserDefaults] synchronize];
             
         } failure:^(NSError *error) {
-            [[NSUserDefaults standardUserDefaults] setObject:nil forKey:key];
-            [[NSUserDefaults standardUserDefaults] synchronize];
+//            [[NSUserDefaults standardUserDefaults] setObject:nil forKey:key];
+//            [[NSUserDefaults standardUserDefaults] synchronize];
         }];
 //    };
 
@@ -162,6 +162,10 @@
     return YES;
 }
 
+- (void)saveContext
+{
+    
+}
 
 
 @end

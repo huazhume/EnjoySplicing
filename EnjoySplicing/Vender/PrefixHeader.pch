@@ -20,7 +20,7 @@
 //屏幕高度
 #define SCREEN_HEIGHT  [[UIScreen mainScreen] bounds].size.height
 
-#define appIdString @"iosapptests"
+#define appIdString @"1467327600"
 
 
 #endif /* PrefixHeader_pch */

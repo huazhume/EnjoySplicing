@@ -21,6 +21,7 @@
     [super viewDidLoad];
     
     self.webView.delegate = self;
+    self.webView.scrollView.bounces = NO;
     self.navigationController.navigationBarHidden = !self.titles.length;
     self.title = self.titles;
     

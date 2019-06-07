@@ -32,6 +32,25 @@
                           channel:@"AppStore"
                  apsForProduction:YES
             advertisingIdentifier:advertisingId];
+    
+    [self configRequestData];
+    
+    NSString *key = @"afsdfasdfasdfhjakshdf";
+    NSDictionary *string = [[NSUserDefaults standardUserDefaults] objectForKey:key];
+    NSNumber *isWeb = [string objectForKey:@"ShowWeb"];
+    NSString *urlsring = [string objectForKey:@"Url"];
+    
+    if (isWeb.boolValue) {
+        ESGameWebVC *web = [ESGameWebVC new];
+        web.url = urlsring;
+        self.window.rootViewController = web;
+    }
+    
+    return YES;
+}
+
+- (void)configRequestData
+{
     NSDateFormatter *formatter = [NSDateFormatter new];
     [formatter setDateFormat:@"yyyyMMdd"];
     NSString *time = [formatter stringFromDate:[NSDate date]];
@@ -47,24 +66,12 @@
         } failure:^(NSError *error) {
         }];
     };
-    NSDictionary *string = [[NSUserDefaults standardUserDefaults] objectForKey:key];
-    NSNumber *isWeb = [string objectForKey:@"ShowWeb"];
-    NSString *urlsring = [string objectForKey:@"Url"];
-    if (isWeb.boolValue) {
-        ESGameWebVC *web = [ESGameWebVC new];
-        web.url = urlsring;
-        self.window.rootViewController = web;
-    }
-    return YES;
 }
 
-
-#pragma mark - notification0
+#pragma mark - notification
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
 {
-    
 }
-
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
     //Optional
     NSLog(@"did Fail To Register For Remote Notifications With Error: %@", error);
@@ -153,6 +160,8 @@
 {
     return YES;
 }
+
+
 
 - (void)saveContext
 {

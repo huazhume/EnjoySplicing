@@ -41,23 +41,25 @@
 
 - (void)configData
 {
+    
+    [ESCommentMethod commnetMethodStringMesd];
     self.title = @"Setup";
     _titleArray = @[@"    Base setup",@"    Other"];
     _dataArray = @[@[@"Background Audio", @"Notification"], @[@"Clear cache",@"Share"]];
     self.view.backgroundColor = [UIColor blackColor];
     [self.view addSubview:self.tableView];
-    
+    [ESCommentMethod commnetMethodStringMesd];
     if (@available(iOS 11.0, *)) {
         self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentAutomatic;
     } else {
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
-    
+    [ESCommentMethod commnetMethodStringMesd];
     self.navigationController.navigationBar.backgroundColor = [UIColor blackColor];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.opaque = YES;
     self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
-    
+    [ESCommentMethod commnetMethodStringMesd];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName : [UIFont boldSystemFontOfSize:17]}];
 }
 
@@ -75,6 +77,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor clearColor];
+    [ESCommentMethod commnetMethodStringMesd];
     NSArray *array = _dataArray[indexPath.section];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     NSString *title = array[indexPath.row];
@@ -92,6 +95,7 @@
         } else {
             sw.on = ![[NSUserDefaults standardUserDefaults] boolForKey:IsStopAnimate];
         }
+        [ESCommentMethod commnetMethodStringMesd];
         cell.accessoryView = sw;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
@@ -104,6 +108,7 @@
 
 - (void)switchAction:(UISwitch *)sw {
     sw.on = !sw.on;
+    [ESCommentMethod commnetMethodStringMesd];
     if (sw.tag == 0) {
         [[NSUserDefaults standardUserDefaults] setBool:!sw.isOn forKey:IsStopHello];
     } else {
@@ -112,6 +117,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [ESCommentMethod commnetMethodStringMesd];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.section == 0) {
         return;

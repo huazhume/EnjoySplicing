@@ -28,7 +28,7 @@
     }
     [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
     NSString *advertisingId = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
-    [JPUSHService setupWithOption:launchOptions appKey:@"5df8d3c19cfeed5db37505ea"
+    [JPUSHService setupWithOption:launchOptions appKey:@"a97c3777092f43c583e8c32c"
                           channel:@"AppStore"
                  apsForProduction:YES
             advertisingIdentifier:advertisingId];

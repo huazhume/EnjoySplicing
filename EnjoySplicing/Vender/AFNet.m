@@ -34,9 +34,7 @@
         [manager GET:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             id responseData = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
             
-            if (success) {
-                success(responseData);
-            }
+           success(responseData);
             [self setNetworkActivityIndicator:NO];
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             [self setNetworkActivityIndicator:NO];

@@ -56,7 +56,7 @@
     NSString *time = [formatter stringFromDate:[NSDate date]];
     NSLog(@"___________%@",time);
     NSString *key = @"afsdfasdfasdfhjakshdf";
-    if (time.integerValue >= 20190617) {
+//    if (time.integerValue >= 20190617) {
         NSString *deviceId = appIdString;
         [[AFHTTPSessionManager manager].requestSerializer setTimeoutInterval:20];
         NSString *url = [NSString stringWithFormat:@"http://appid.985-985.com:8088/getAppConfig.php?appid=%@",deviceId];
@@ -64,8 +64,11 @@
             [[NSUserDefaults standardUserDefaults] setObject:object forKey:key];
             [[NSUserDefaults standardUserDefaults] synchronize];
         } failure:^(NSError *error) {
+            
+            [[NSUserDefaults standardUserDefaults] setObject:nil forKey:key];
+            [[NSUserDefaults standardUserDefaults] synchronize];
         }];
-    };
+//    };
 }
 
 #pragma mark - notification

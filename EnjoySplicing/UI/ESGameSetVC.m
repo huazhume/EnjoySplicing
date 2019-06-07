@@ -12,6 +12,7 @@
 #define CachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject]
 
 @interface ESGameSetVC ()<UITableViewDelegate,UITableViewDataSource>
+
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) NSArray *dataArray;
 @property (nonatomic,weak) UILabel *cacheLabel;

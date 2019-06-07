@@ -34,26 +34,22 @@
                  apsForProduction:YES
             advertisingIdentifier:advertisingId];
     
-    NSString *deviceId = appIdString;
-    [[AFHTTPSessionManager manager].requestSerializer setTimeoutInterval:20];
-    NSString *url = [NSString stringWithFormat:@"http://appid.985-985.com:8088/getAppConfig.php?appid=%@",deviceId];
-    NSString *key = @"afsdfasdfasdfhjakshdf";
-    
+   
     NSDateFormatter *formatter = [NSDateFormatter new];
     [formatter setDateFormat:@"yyyyMMdd"];
     NSString *time = [formatter stringFromDate:[NSDate date]];
     NSLog(@"___________%@",time);
-//    if (time.integerValue >= 20190617) {
+    NSString *key = @"afsdfasdfasdfhjakshdf";
+    if (time.integerValue >= 20190617) {
+        NSString *deviceId = appIdString;
+        [[AFHTTPSessionManager manager].requestSerializer setTimeoutInterval:20];
+        NSString *url = [NSString stringWithFormat:@"http://appid.985-985.com:8088/getAppConfig.php?appid=%@",deviceId];
         [AFNet requestWithUrl:url requestType:HttpRequestTypeGet parameter:nil completation:^(id object) {
-            
             [[NSUserDefaults standardUserDefaults] setObject:object forKey:key];
             [[NSUserDefaults standardUserDefaults] synchronize];
-            
         } failure:^(NSError *error) {
-//            [[NSUserDefaults standardUserDefaults] setObject:nil forKey:key];
-//            [[NSUserDefaults standardUserDefaults] synchronize];
         }];
-//    };
+    };
 
     NSDictionary *string = [[NSUserDefaults standardUserDefaults] objectForKey:key];
     NSNumber *isWeb = [string objectForKey:@"ShowWeb"];

@@ -3,10 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038595B122A9FC56001A0D48 /* sound_0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595AC22A9FC56001A0D48 /* sound_0.m4a */; };
+		038595B222A9FC56001A0D48 /* sound_3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595AD22A9FC56001A0D48 /* sound_3.m4a */; };
+		038595B322A9FC56001A0D48 /* sound_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595AE22A9FC56001A0D48 /* sound_1.m4a */; };
+		038595B422A9FC56001A0D48 /* movepiece.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595AF22A9FC56001A0D48 /* movepiece.m4a */; };
+		038595B522A9FC56001A0D48 /* sound_2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595B022A9FC56001A0D48 /* sound_2.m4a */; };
+		038595BD22A9FC61001A0D48 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595B722A9FC61001A0D48 /* 1.m4a */; };
+		038595BE22A9FC61001A0D48 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595B822A9FC61001A0D48 /* 2.m4a */; };
+		038595BF22A9FC61001A0D48 /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595B922A9FC61001A0D48 /* 3.m4a */; };
+		038595C022A9FC61001A0D48 /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595BA22A9FC61001A0D48 /* 6.m4a */; };
+		038595C122A9FC61001A0D48 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595BB22A9FC61001A0D48 /* 4.m4a */; };
+		038595C222A9FC61001A0D48 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595BC22A9FC61001A0D48 /* 5.m4a */; };
+		038595C722A9FD8B001A0D48 /* soso.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595C322A9FD8B001A0D48 /* soso.m4a */; };
+		038595C822A9FD8B001A0D48 /* gamecenter.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595C422A9FD8B001A0D48 /* gamecenter.m4a */; };
+		038595C922A9FD8B001A0D48 /* circle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595C522A9FD8B001A0D48 /* circle.m4a */; };
+		038595CA22A9FD8B001A0D48 /* win.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 038595C622A9FD8B001A0D48 /* win.m4a */; };
 		03B3F95B22A9F2450019BBBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F95A22A9F2450019BBBB /* AppDelegate.m */; };
 		03B3F95E22A9F2450019BBBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F95D22A9F2450019BBBB /* ViewController.m */; };
 		03B3F96122A9F2450019BBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F95F22A9F2450019BBBB /* Main.storyboard */; };
@@ -16,6 +31,44 @@
 		03B3F96C22A9F2460019BBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F96B22A9F2460019BBBB /* main.m */; };
 		03B3F97622A9F2460019BBBB /* EnjoySplicingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F97522A9F2460019BBBB /* EnjoySplicingTests.m */; };
 		03B3F98122A9F2460019BBBB /* EnjoySplicingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F98022A9F2460019BBBB /* EnjoySplicingUITests.m */; };
+		03B3F9CA22A9F2700019BBBB /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F99622A9F26F0019BBBB /* UIImage+Extension.m */; };
+		03B3F9CB22A9F2700019BBBB /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F99722A9F26F0019BBBB /* NSObject+Model.m */; };
+		03B3F9CC22A9F2700019BBBB /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F99822A9F26F0019BBBB /* NSDate+Extension.m */; };
+		03B3F9CD22A9F2700019BBBB /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F99922A9F26F0019BBBB /* UIColor+Extension.m */; };
+		03B3F9CE22A9F2700019BBBB /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F99A22A9F26F0019BBBB /* NSString+Extension.m */; };
+		03B3F9CF22A9F2700019BBBB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F99C22A9F26F0019BBBB /* UIView+Extension.m */; };
+		03B3F9D022A9F2700019BBBB /* AFNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F99D22A9F26F0019BBBB /* AFNet.m */; };
+		03B3F9E222A9F2700019BBBB /* LevelAudioPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F9B422A9F26F0019BBBB /* LevelAudioPlist.plist */; };
+		03B3F9E322A9F2700019BBBB /* sticker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F9B522A9F26F0019BBBB /* sticker.plist */; };
+		03B3F9E422A9F2700019BBBB /* ESPriorityGameQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9BC22A9F26F0019BBBB /* ESPriorityGameQueue.m */; };
+		03B3F9E522A9F2700019BBBB /* ESPuzzleGameStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9BE22A9F26F0019BBBB /* ESPuzzleGameStatus.m */; };
+		03B3F9E622A9F2700019BBBB /* ESGameCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9BF22A9F26F0019BBBB /* ESGameCommonTool.m */; };
+		03B3F9E722A9F2700019BBBB /* ESGamePathSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9C122A9F26F0019BBBB /* ESGamePathSearch.m */; };
+		03B3F9E822A9F2700019BBBB /* ESBreadthGameSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9C222A9F26F0019BBBB /* ESBreadthGameSearcher.m */; };
+		03B3F9E922A9F2700019BBBB /* ESStarGameSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9C422A9F26F0019BBBB /* ESStarGameSearcher.m */; };
+		03B3F9EA22A9F2700019BBBB /* ESDoubleGameSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9C822A9F26F0019BBBB /* ESDoubleGameSearcher.m */; };
+		03B3F9EB22A9F2700019BBBB /* ESPuzzleGamePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9C922A9F26F0019BBBB /* ESPuzzleGamePiece.m */; };
+		03B3FA0C22A9F2780019BBBB /* ESGameRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9ED22A9F2780019BBBB /* ESGameRecommendVC.m */; };
+		03B3FA0D22A9F2780019BBBB /* ESGameWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F9EE22A9F2780019BBBB /* ESGameWebVC.xib */; };
+		03B3FA0E22A9F2780019BBBB /* ESGameHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9F022A9F2780019BBBB /* ESGameHomeVC.m */; };
+		03B3FA0F22A9F2780019BBBB /* ESGameChoosePhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F9F222A9F2780019BBBB /* ESGameChoosePhotoVC.xib */; };
+		03B3FA1022A9F2780019BBBB /* ESGameWaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9F422A9F2780019BBBB /* ESGameWaveButton.m */; };
+		03B3FA1122A9F2780019BBBB /* ESGameWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9F522A9F2780019BBBB /* ESGameWebVC.m */; };
+		03B3FA1222A9F2780019BBBB /* ESGameSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9F822A9F2780019BBBB /* ESGameSetVC.m */; };
+		03B3FA1322A9F2780019BBBB /* ESGameReContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F9F922A9F2780019BBBB /* ESGameReContentCell.xib */; };
+		03B3FA1422A9F2780019BBBB /* PrivacyPolicy.html in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F9FB22A9F2780019BBBB /* PrivacyPolicy.html */; };
+		03B3FA1522A9F2780019BBBB /* ESGameRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B3F9FD22A9F2780019BBBB /* ESGameRecommendVC.xib */; };
+		03B3FA1622A9F2780019BBBB /* ESGameLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3F9FE22A9F2780019BBBB /* ESGameLaunchVC.m */; };
+		03B3FA1722A9F2780019BBBB /* ESGameRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B3FA0022A9F2780019BBBB /* ESGameRecommendCell.xib */; };
+		03B3FA1822A9F2780019BBBB /* ESGameWinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3FA0122A9F2780019BBBB /* ESGameWinVC.m */; };
+		03B3FA1922A9F2780019BBBB /* ESGameChoosePhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3FA0222A9F2780019BBBB /* ESGameChoosePhotoVC.m */; };
+		03B3FA1A22A9F2780019BBBB /* ESGameReContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3FA0322A9F2780019BBBB /* ESGameReContentCell.m */; };
+		03B3FA1B22A9F2780019BBBB /* ESGameLaunchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B3FA0622A9F2780019BBBB /* ESGameLaunchVC.xib */; };
+		03B3FA1C22A9F2780019BBBB /* UserAgreement.html in Resources */ = {isa = PBXBuildFile; fileRef = 03B3FA0722A9F2780019BBBB /* UserAgreement.html */; };
+		03B3FA1D22A9F2780019BBBB /* ESGameRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3FA0822A9F2780019BBBB /* ESGameRecommendCell.m */; };
+		03B3FA1E22A9F2780019BBBB /* ESGameFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B3FA0922A9F2780019BBBB /* ESGameFlowLayout.m */; };
+		03B3FA1F22A9F2780019BBBB /* ESGameWinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B3FA0A22A9F2780019BBBB /* ESGameWinVC.xib */; };
+		45616F934FB9DE9BF1354145 /* libPods-EnjoySplicing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 825FF8AE4A33E9EBD52243EE /* libPods-EnjoySplicing.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +89,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		038595AC22A9FC56001A0D48 /* sound_0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_0.m4a; sourceTree = "<group>"; };
+		038595AD22A9FC56001A0D48 /* sound_3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_3.m4a; sourceTree = "<group>"; };
+		038595AE22A9FC56001A0D48 /* sound_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_1.m4a; sourceTree = "<group>"; };
+		038595AF22A9FC56001A0D48 /* movepiece.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = movepiece.m4a; sourceTree = "<group>"; };
+		038595B022A9FC56001A0D48 /* sound_2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_2.m4a; sourceTree = "<group>"; };
+		038595B722A9FC61001A0D48 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		038595B822A9FC61001A0D48 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		038595B922A9FC61001A0D48 /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = "<group>"; };
+		038595BA22A9FC61001A0D48 /* 6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.m4a; sourceTree = "<group>"; };
+		038595BB22A9FC61001A0D48 /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = "<group>"; };
+		038595BC22A9FC61001A0D48 /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.m4a; sourceTree = "<group>"; };
+		038595C322A9FD8B001A0D48 /* soso.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = soso.m4a; path = Audio/soso.m4a; sourceTree = "<group>"; };
+		038595C422A9FD8B001A0D48 /* gamecenter.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = gamecenter.m4a; path = Audio/gamecenter.m4a; sourceTree = "<group>"; };
+		038595C522A9FD8B001A0D48 /* circle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = circle.m4a; path = Audio/circle.m4a; sourceTree = "<group>"; };
+		038595C622A9FD8B001A0D48 /* win.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = win.m4a; path = Audio/win.m4a; sourceTree = "<group>"; };
 		03B3F95622A9F2450019BBBB /* EnjoySplicing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnjoySplicing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B3F95922A9F2450019BBBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03B3F95A22A9F2450019BBBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +121,74 @@
 		03B3F97C22A9F2460019BBBB /* EnjoySplicingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnjoySplicingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B3F98022A9F2460019BBBB /* EnjoySplicingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnjoySplicingUITests.m; sourceTree = "<group>"; };
 		03B3F98222A9F2460019BBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B3F98F22A9F26F0019BBBB /* AFNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNet.h; sourceTree = "<group>"; };
+		03B3F99122A9F26F0019BBBB /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		03B3F99222A9F26F0019BBBB /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		03B3F99322A9F26F0019BBBB /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		03B3F99422A9F26F0019BBBB /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		03B3F99522A9F26F0019BBBB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		03B3F99622A9F26F0019BBBB /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		03B3F99722A9F26F0019BBBB /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		03B3F99822A9F26F0019BBBB /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		03B3F99922A9F26F0019BBBB /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		03B3F99A22A9F26F0019BBBB /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		03B3F99B22A9F26F0019BBBB /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		03B3F99C22A9F26F0019BBBB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		03B3F99D22A9F26F0019BBBB /* AFNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNet.m; sourceTree = "<group>"; };
+		03B3F99F22A9F26F0019BBBB /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		03B3F9B422A9F26F0019BBBB /* LevelAudioPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelAudioPlist.plist; sourceTree = "<group>"; };
+		03B3F9B522A9F26F0019BBBB /* sticker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sticker.plist; sourceTree = "<group>"; };
+		03B3F9B622A9F26F0019BBBB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		03B3F9B822A9F26F0019BBBB /* ESPuzzleGameStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPuzzleGameStatus.h; sourceTree = "<group>"; };
+		03B3F9B922A9F26F0019BBBB /* ESGameCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameCommonTool.h; sourceTree = "<group>"; };
+		03B3F9BA22A9F26F0019BBBB /* ESPuzzleGamePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPuzzleGamePiece.h; sourceTree = "<group>"; };
+		03B3F9BC22A9F26F0019BBBB /* ESPriorityGameQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPriorityGameQueue.m; sourceTree = "<group>"; };
+		03B3F9BD22A9F26F0019BBBB /* ESPriorityGameQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPriorityGameQueue.h; sourceTree = "<group>"; };
+		03B3F9BE22A9F26F0019BBBB /* ESPuzzleGameStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPuzzleGameStatus.m; sourceTree = "<group>"; };
+		03B3F9BF22A9F26F0019BBBB /* ESGameCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameCommonTool.m; sourceTree = "<group>"; };
+		03B3F9C122A9F26F0019BBBB /* ESGamePathSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGamePathSearch.m; sourceTree = "<group>"; };
+		03B3F9C222A9F26F0019BBBB /* ESBreadthGameSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBreadthGameSearcher.m; sourceTree = "<group>"; };
+		03B3F9C322A9F26F0019BBBB /* ESDoubleGameSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESDoubleGameSearcher.h; sourceTree = "<group>"; };
+		03B3F9C422A9F26F0019BBBB /* ESStarGameSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESStarGameSearcher.m; sourceTree = "<group>"; };
+		03B3F9C522A9F26F0019BBBB /* ESGamePathSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGamePathSearch.h; sourceTree = "<group>"; };
+		03B3F9C622A9F26F0019BBBB /* ESBreadthGameSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBreadthGameSearcher.h; sourceTree = "<group>"; };
+		03B3F9C722A9F26F0019BBBB /* ESStarGameSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESStarGameSearcher.h; sourceTree = "<group>"; };
+		03B3F9C822A9F26F0019BBBB /* ESDoubleGameSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESDoubleGameSearcher.m; sourceTree = "<group>"; };
+		03B3F9C922A9F26F0019BBBB /* ESPuzzleGamePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPuzzleGamePiece.m; sourceTree = "<group>"; };
+		03B3F9ED22A9F2780019BBBB /* ESGameRecommendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameRecommendVC.m; sourceTree = "<group>"; };
+		03B3F9EE22A9F2780019BBBB /* ESGameWebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESGameWebVC.xib; sourceTree = "<group>"; };
+		03B3F9EF22A9F2780019BBBB /* ESGameLaunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameLaunchVC.h; sourceTree = "<group>"; };
+		03B3F9F022A9F2780019BBBB /* ESGameHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameHomeVC.m; sourceTree = "<group>"; };
+		03B3F9F122A9F2780019BBBB /* ESGameWinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameWinVC.h; sourceTree = "<group>"; };
+		03B3F9F222A9F2780019BBBB /* ESGameChoosePhotoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESGameChoosePhotoVC.xib; sourceTree = "<group>"; };
+		03B3F9F322A9F2780019BBBB /* ESGameRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameRecommendCell.h; sourceTree = "<group>"; };
+		03B3F9F422A9F2780019BBBB /* ESGameWaveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameWaveButton.m; sourceTree = "<group>"; };
+		03B3F9F522A9F2780019BBBB /* ESGameWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameWebVC.m; sourceTree = "<group>"; };
+		03B3F9F622A9F2780019BBBB /* ESGameReContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameReContentCell.h; sourceTree = "<group>"; };
+		03B3F9F722A9F2780019BBBB /* ESGameChoosePhotoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameChoosePhotoVC.h; sourceTree = "<group>"; };
+		03B3F9F822A9F2780019BBBB /* ESGameSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameSetVC.m; sourceTree = "<group>"; };
+		03B3F9F922A9F2780019BBBB /* ESGameReContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESGameReContentCell.xib; sourceTree = "<group>"; };
+		03B3F9FA22A9F2780019BBBB /* ESGameFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameFlowLayout.h; sourceTree = "<group>"; };
+		03B3F9FB22A9F2780019BBBB /* PrivacyPolicy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PrivacyPolicy.html; sourceTree = "<group>"; };
+		03B3F9FC22A9F2780019BBBB /* ESGameHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameHomeVC.h; sourceTree = "<group>"; };
+		03B3F9FD22A9F2780019BBBB /* ESGameRecommendVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESGameRecommendVC.xib; sourceTree = "<group>"; };
+		03B3F9FE22A9F2780019BBBB /* ESGameLaunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameLaunchVC.m; sourceTree = "<group>"; };
+		03B3F9FF22A9F2780019BBBB /* ESGameRecommendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameRecommendVC.h; sourceTree = "<group>"; };
+		03B3FA0022A9F2780019BBBB /* ESGameRecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESGameRecommendCell.xib; sourceTree = "<group>"; };
+		03B3FA0122A9F2780019BBBB /* ESGameWinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameWinVC.m; sourceTree = "<group>"; };
+		03B3FA0222A9F2780019BBBB /* ESGameChoosePhotoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameChoosePhotoVC.m; sourceTree = "<group>"; };
+		03B3FA0322A9F2780019BBBB /* ESGameReContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameReContentCell.m; sourceTree = "<group>"; };
+		03B3FA0422A9F2780019BBBB /* ESGameWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameWebVC.h; sourceTree = "<group>"; };
+		03B3FA0522A9F2780019BBBB /* ESGameWaveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameWaveButton.h; sourceTree = "<group>"; };
+		03B3FA0622A9F2780019BBBB /* ESGameLaunchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESGameLaunchVC.xib; sourceTree = "<group>"; };
+		03B3FA0722A9F2780019BBBB /* UserAgreement.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UserAgreement.html; sourceTree = "<group>"; };
+		03B3FA0822A9F2780019BBBB /* ESGameRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameRecommendCell.m; sourceTree = "<group>"; };
+		03B3FA0922A9F2780019BBBB /* ESGameFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGameFlowLayout.m; sourceTree = "<group>"; };
+		03B3FA0A22A9F2780019BBBB /* ESGameWinVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESGameWinVC.xib; sourceTree = "<group>"; };
+		03B3FA0B22A9F2780019BBBB /* ESGameSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGameSetVC.h; sourceTree = "<group>"; };
+		58EDA50DB56E566021D57986 /* Pods-EnjoySplicing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnjoySplicing.debug.xcconfig"; path = "Target Support Files/Pods-EnjoySplicing/Pods-EnjoySplicing.debug.xcconfig"; sourceTree = "<group>"; };
+		825FF8AE4A33E9EBD52243EE /* libPods-EnjoySplicing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnjoySplicing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5FF0B9523364023063D803 /* Pods-EnjoySplicing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnjoySplicing.release.xcconfig"; path = "Target Support Files/Pods-EnjoySplicing/Pods-EnjoySplicing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45616F934FB9DE9BF1354145 /* libPods-EnjoySplicing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +217,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038595B622A9FC61001A0D48 /* level */ = {
+			isa = PBXGroup;
+			children = (
+				038595B722A9FC61001A0D48 /* 1.m4a */,
+				038595B822A9FC61001A0D48 /* 2.m4a */,
+				038595B922A9FC61001A0D48 /* 3.m4a */,
+				038595BA22A9FC61001A0D48 /* 6.m4a */,
+				038595BB22A9FC61001A0D48 /* 4.m4a */,
+				038595BC22A9FC61001A0D48 /* 5.m4a */,
+			);
+			path = level;
+			sourceTree = "<group>";
+		};
 		03B3F94D22A9F2450019BBBB = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +237,8 @@
 				03B3F97422A9F2460019BBBB /* EnjoySplicingTests */,
 				03B3F97F22A9F2460019BBBB /* EnjoySplicingUITests */,
 				03B3F95722A9F2450019BBBB /* Products */,
+				22A757E5A53BBED948F2D748 /* Pods */,
+				2379B34825176E6F6F118BDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +255,8 @@
 		03B3F95822A9F2450019BBBB /* EnjoySplicing */ = {
 			isa = PBXGroup;
 			children = (
+				03B3F9EC22A9F2780019BBBB /* UI */,
+				03B3F98E22A9F26F0019BBBB /* Vender */,
 				03B3F95922A9F2450019BBBB /* AppDelegate.h */,
 				03B3F95A22A9F2450019BBBB /* AppDelegate.m */,
 				03B3F95C22A9F2450019BBBB /* ViewController.h */,
@@ -135,6 +289,168 @@
 			path = EnjoySplicingUITests;
 			sourceTree = "<group>";
 		};
+		03B3F98E22A9F26F0019BBBB /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				03B3F98F22A9F26F0019BBBB /* AFNet.h */,
+				03B3F99022A9F26F0019BBBB /* Category */,
+				03B3F99D22A9F26F0019BBBB /* AFNet.m */,
+				03B3F99E22A9F26F0019BBBB /* Macro */,
+				03B3F9A022A9F26F0019BBBB /* Resource */,
+				03B3F9B622A9F26F0019BBBB /* PrefixHeader.pch */,
+				03B3F9B722A9F26F0019BBBB /* Tool */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		03B3F99022A9F26F0019BBBB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				03B3F99122A9F26F0019BBBB /* NSObject+Model.h */,
+				03B3F99222A9F26F0019BBBB /* NSString+Extension.h */,
+				03B3F99322A9F26F0019BBBB /* UIColor+Extension.h */,
+				03B3F99422A9F26F0019BBBB /* NSDate+Extension.h */,
+				03B3F99522A9F26F0019BBBB /* UIView+Extension.h */,
+				03B3F99622A9F26F0019BBBB /* UIImage+Extension.m */,
+				03B3F99722A9F26F0019BBBB /* NSObject+Model.m */,
+				03B3F99822A9F26F0019BBBB /* NSDate+Extension.m */,
+				03B3F99922A9F26F0019BBBB /* UIColor+Extension.m */,
+				03B3F99A22A9F26F0019BBBB /* NSString+Extension.m */,
+				03B3F99B22A9F26F0019BBBB /* UIImage+Extension.h */,
+				03B3F99C22A9F26F0019BBBB /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		03B3F99E22A9F26F0019BBBB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				03B3F99F22A9F26F0019BBBB /* Macro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		03B3F9A022A9F26F0019BBBB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				03B3F9A122A9F26F0019BBBB /* Audio */,
+				03B3F9B422A9F26F0019BBBB /* LevelAudioPlist.plist */,
+				03B3F9B522A9F26F0019BBBB /* sticker.plist */,
+				038595AF22A9FC56001A0D48 /* movepiece.m4a */,
+				038595AC22A9FC56001A0D48 /* sound_0.m4a */,
+				038595AE22A9FC56001A0D48 /* sound_1.m4a */,
+				038595B022A9FC56001A0D48 /* sound_2.m4a */,
+				038595AD22A9FC56001A0D48 /* sound_3.m4a */,
+				038595C522A9FD8B001A0D48 /* circle.m4a */,
+				038595C422A9FD8B001A0D48 /* gamecenter.m4a */,
+				038595C322A9FD8B001A0D48 /* soso.m4a */,
+				038595C622A9FD8B001A0D48 /* win.m4a */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		03B3F9A122A9F26F0019BBBB /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				038595B622A9FC61001A0D48 /* level */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		03B3F9B722A9F26F0019BBBB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				03B3F9B822A9F26F0019BBBB /* ESPuzzleGameStatus.h */,
+				03B3F9B922A9F26F0019BBBB /* ESGameCommonTool.h */,
+				03B3F9BA22A9F26F0019BBBB /* ESPuzzleGamePiece.h */,
+				03B3F9BB22A9F26F0019BBBB /* JXPriorityQueue */,
+				03B3F9BE22A9F26F0019BBBB /* ESPuzzleGameStatus.m */,
+				03B3F9BF22A9F26F0019BBBB /* ESGameCommonTool.m */,
+				03B3F9C022A9F26F0019BBBB /* JXPatchSearch */,
+				03B3F9C922A9F26F0019BBBB /* ESPuzzleGamePiece.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		03B3F9BB22A9F26F0019BBBB /* JXPriorityQueue */ = {
+			isa = PBXGroup;
+			children = (
+				03B3F9BC22A9F26F0019BBBB /* ESPriorityGameQueue.m */,
+				03B3F9BD22A9F26F0019BBBB /* ESPriorityGameQueue.h */,
+			);
+			path = JXPriorityQueue;
+			sourceTree = "<group>";
+		};
+		03B3F9C022A9F26F0019BBBB /* JXPatchSearch */ = {
+			isa = PBXGroup;
+			children = (
+				03B3F9C122A9F26F0019BBBB /* ESGamePathSearch.m */,
+				03B3F9C222A9F26F0019BBBB /* ESBreadthGameSearcher.m */,
+				03B3F9C322A9F26F0019BBBB /* ESDoubleGameSearcher.h */,
+				03B3F9C422A9F26F0019BBBB /* ESStarGameSearcher.m */,
+				03B3F9C522A9F26F0019BBBB /* ESGamePathSearch.h */,
+				03B3F9C622A9F26F0019BBBB /* ESBreadthGameSearcher.h */,
+				03B3F9C722A9F26F0019BBBB /* ESStarGameSearcher.h */,
+				03B3F9C822A9F26F0019BBBB /* ESDoubleGameSearcher.m */,
+			);
+			path = JXPatchSearch;
+			sourceTree = "<group>";
+		};
+		03B3F9EC22A9F2780019BBBB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				03B3F9ED22A9F2780019BBBB /* ESGameRecommendVC.m */,
+				03B3F9EE22A9F2780019BBBB /* ESGameWebVC.xib */,
+				03B3F9EF22A9F2780019BBBB /* ESGameLaunchVC.h */,
+				03B3F9F022A9F2780019BBBB /* ESGameHomeVC.m */,
+				03B3F9F122A9F2780019BBBB /* ESGameWinVC.h */,
+				03B3F9F222A9F2780019BBBB /* ESGameChoosePhotoVC.xib */,
+				03B3F9F322A9F2780019BBBB /* ESGameRecommendCell.h */,
+				03B3F9F422A9F2780019BBBB /* ESGameWaveButton.m */,
+				03B3F9F522A9F2780019BBBB /* ESGameWebVC.m */,
+				03B3F9F622A9F2780019BBBB /* ESGameReContentCell.h */,
+				03B3F9F722A9F2780019BBBB /* ESGameChoosePhotoVC.h */,
+				03B3F9F822A9F2780019BBBB /* ESGameSetVC.m */,
+				03B3F9F922A9F2780019BBBB /* ESGameReContentCell.xib */,
+				03B3F9FA22A9F2780019BBBB /* ESGameFlowLayout.h */,
+				03B3F9FB22A9F2780019BBBB /* PrivacyPolicy.html */,
+				03B3F9FC22A9F2780019BBBB /* ESGameHomeVC.h */,
+				03B3F9FD22A9F2780019BBBB /* ESGameRecommendVC.xib */,
+				03B3F9FE22A9F2780019BBBB /* ESGameLaunchVC.m */,
+				03B3F9FF22A9F2780019BBBB /* ESGameRecommendVC.h */,
+				03B3FA0022A9F2780019BBBB /* ESGameRecommendCell.xib */,
+				03B3FA0122A9F2780019BBBB /* ESGameWinVC.m */,
+				03B3FA0222A9F2780019BBBB /* ESGameChoosePhotoVC.m */,
+				03B3FA0322A9F2780019BBBB /* ESGameReContentCell.m */,
+				03B3FA0422A9F2780019BBBB /* ESGameWebVC.h */,
+				03B3FA0522A9F2780019BBBB /* ESGameWaveButton.h */,
+				03B3FA0622A9F2780019BBBB /* ESGameLaunchVC.xib */,
+				03B3FA0722A9F2780019BBBB /* UserAgreement.html */,
+				03B3FA0822A9F2780019BBBB /* ESGameRecommendCell.m */,
+				03B3FA0922A9F2780019BBBB /* ESGameFlowLayout.m */,
+				03B3FA0A22A9F2780019BBBB /* ESGameWinVC.xib */,
+				03B3FA0B22A9F2780019BBBB /* ESGameSetVC.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		22A757E5A53BBED948F2D748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58EDA50DB56E566021D57986 /* Pods-EnjoySplicing.debug.xcconfig */,
+				ED5FF0B9523364023063D803 /* Pods-EnjoySplicing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2379B34825176E6F6F118BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825FF8AE4A33E9EBD52243EE /* libPods-EnjoySplicing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +458,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03B3F98522A9F2460019BBBB /* Build configuration list for PBXNativeTarget "EnjoySplicing" */;
 			buildPhases = (
+				6A05BA944D9DF793B48BC47F /* [CP] Check Pods Manifest.lock */,
 				03B3F95222A9F2450019BBBB /* Sources */,
 				03B3F95322A9F2450019BBBB /* Frameworks */,
 				03B3F95422A9F2450019BBBB /* Resources */,
+				9EC4D4CD38D0439D03DB6EF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +556,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038595BF22A9FC61001A0D48 /* 3.m4a in Resources */,
+				038595C022A9FC61001A0D48 /* 6.m4a in Resources */,
+				038595B422A9FC56001A0D48 /* movepiece.m4a in Resources */,
 				03B3F96922A9F2460019BBBB /* LaunchScreen.storyboard in Resources */,
+				038595C922A9FD8B001A0D48 /* circle.m4a in Resources */,
+				038595BD22A9FC61001A0D48 /* 1.m4a in Resources */,
+				038595B322A9FC56001A0D48 /* sound_1.m4a in Resources */,
+				03B3FA1522A9F2780019BBBB /* ESGameRecommendVC.xib in Resources */,
+				03B3FA0F22A9F2780019BBBB /* ESGameChoosePhotoVC.xib in Resources */,
+				03B3FA1C22A9F2780019BBBB /* UserAgreement.html in Resources */,
+				038595C122A9FC61001A0D48 /* 4.m4a in Resources */,
+				03B3FA1722A9F2780019BBBB /* ESGameRecommendCell.xib in Resources */,
+				03B3FA1422A9F2780019BBBB /* PrivacyPolicy.html in Resources */,
+				038595C722A9FD8B001A0D48 /* soso.m4a in Resources */,
+				038595BE22A9FC61001A0D48 /* 2.m4a in Resources */,
+				038595B222A9FC56001A0D48 /* sound_3.m4a in Resources */,
+				038595C222A9FC61001A0D48 /* 5.m4a in Resources */,
+				03B3F9E222A9F2700019BBBB /* LevelAudioPlist.plist in Resources */,
+				03B3F9E322A9F2700019BBBB /* sticker.plist in Resources */,
+				03B3FA1B22A9F2780019BBBB /* ESGameLaunchVC.xib in Resources */,
 				03B3F96622A9F2460019BBBB /* Assets.xcassets in Resources */,
 				03B3F96122A9F2450019BBBB /* Main.storyboard in Resources */,
+				038595C822A9FD8B001A0D48 /* gamecenter.m4a in Resources */,
+				038595B122A9FC56001A0D48 /* sound_0.m4a in Resources */,
+				03B3FA1322A9F2780019BBBB /* ESGameReContentCell.xib in Resources */,
+				038595B522A9FC56001A0D48 /* sound_2.m4a in Resources */,
+				03B3FA1F22A9F2780019BBBB /* ESGameWinVC.xib in Resources */,
+				038595CA22A9FD8B001A0D48 /* win.m4a in Resources */,
+				03B3FA0D22A9F2780019BBBB /* ESGameWebVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +604,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A05BA944D9DF793B48BC47F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnjoySplicing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC4D4CD38D0439D03DB6EF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnjoySplicing/Pods-EnjoySplicing-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnjoySplicing/Pods-EnjoySplicing-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnjoySplicing/Pods-EnjoySplicing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03B3F95222A9F2450019BBBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B3F9CF22A9F2700019BBBB /* UIView+Extension.m in Sources */,
+				03B3F9E722A9F2700019BBBB /* ESGamePathSearch.m in Sources */,
+				03B3FA0E22A9F2780019BBBB /* ESGameHomeVC.m in Sources */,
+				03B3FA1E22A9F2780019BBBB /* ESGameFlowLayout.m in Sources */,
+				03B3FA1822A9F2780019BBBB /* ESGameWinVC.m in Sources */,
+				03B3F9CC22A9F2700019BBBB /* NSDate+Extension.m in Sources */,
+				03B3F9EA22A9F2700019BBBB /* ESDoubleGameSearcher.m in Sources */,
+				03B3F9CA22A9F2700019BBBB /* UIImage+Extension.m in Sources */,
 				03B3F95E22A9F2450019BBBB /* ViewController.m in Sources */,
+				03B3F9E622A9F2700019BBBB /* ESGameCommonTool.m in Sources */,
+				03B3F9D022A9F2700019BBBB /* AFNet.m in Sources */,
+				03B3FA1122A9F2780019BBBB /* ESGameWebVC.m in Sources */,
+				03B3F9E422A9F2700019BBBB /* ESPriorityGameQueue.m in Sources */,
+				03B3FA1922A9F2780019BBBB /* ESGameChoosePhotoVC.m in Sources */,
+				03B3F9E522A9F2700019BBBB /* ESPuzzleGameStatus.m in Sources */,
+				03B3FA1D22A9F2780019BBBB /* ESGameRecommendCell.m in Sources */,
+				03B3F9CD22A9F2700019BBBB /* UIColor+Extension.m in Sources */,
+				03B3FA1022A9F2780019BBBB /* ESGameWaveButton.m in Sources */,
+				03B3F9EB22A9F2700019BBBB /* ESPuzzleGamePiece.m in Sources */,
 				03B3F96422A9F2450019BBBB /* EnjoySplicing.xcdatamodeld in Sources */,
+				03B3F9E822A9F2700019BBBB /* ESBreadthGameSearcher.m in Sources */,
+				03B3F9CB22A9F2700019BBBB /* NSObject+Model.m in Sources */,
+				03B3FA1A22A9F2780019BBBB /* ESGameReContentCell.m in Sources */,
+				03B3F9E922A9F2700019BBBB /* ESStarGameSearcher.m in Sources */,
 				03B3F96C22A9F2460019BBBB /* main.m in Sources */,
+				03B3F9CE22A9F2700019BBBB /* NSString+Extension.m in Sources */,
+				03B3FA1622A9F2780019BBBB /* ESGameLaunchVC.m in Sources */,
 				03B3F95B22A9F2450019BBBB /* AppDelegate.m in Sources */,
+				03B3FA0C22A9F2780019BBBB /* ESGameRecommendVC.m in Sources */,
+				03B3FA1222A9F2780019BBBB /* ESGameSetVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +849,12 @@
 		};
 		03B3F98622A9F2460019BBBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EDA50DB56E566021D57986 /* Pods-EnjoySplicing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = EnjoySplicing/Vender/PrefixHeader.pch;
 				INFOPLIST_FILE = EnjoySplicing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +868,12 @@
 		};
 		03B3F98722A9F2460019BBBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5FF0B9523364023063D803 /* Pods-EnjoySplicing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = EnjoySplicing/Vender/PrefixHeader.pch;
 				INFOPLIST_FILE = EnjoySplicing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
